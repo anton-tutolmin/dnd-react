@@ -7,7 +7,7 @@ export function Card(props) {
     e.dataTransfer.setData("card_id", target.id);
 
     setTimeout(() => {
-      e.target.style.display = "none";
+      e.target.style.visibility = "hidden";
     }, 0);
   };
 
